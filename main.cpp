@@ -1,7 +1,16 @@
 #include <iostream>
+/*using namespace std;*/
+
+using std::cout;
+using std::endl;
+
+/**
+ * C style comment here...
+ *
+ * */
 
 int main() {
-
-  std::cout << "Game Over!!!" << std::endl;
+  cout << "Game Over!!!" << endl;
+  cout << "7 * 3 " << 7 * 3 << endl;
   return 0;
 }
